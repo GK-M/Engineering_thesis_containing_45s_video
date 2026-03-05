@@ -1,6 +1,6 @@
 # Diploma Thesis Repository
 
-**Design and Implementation of a Microprocessor-Based Distributed I/O Platform (Modbus TCP/IP) for Siemens S7-1200**
+**Project and Implementation of a Microprocessor Platform for Building Distributed I/O Using a Selected Protocol Supported by Siemens S7-1200 PLCs0**
 
 This repository contains my diploma thesis project focused on building a **distributed I/O platform** based on **Modbus TCP/IP**, where a **Siemens S7-1200 PLC** acts as the **Modbus client** and **ESP32 nodes** act as **Modbus servers**.
 
