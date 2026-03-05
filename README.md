@@ -4,8 +4,10 @@
 
 This repository contains my diploma thesis project focused on building a **distributed I/O platform** based on **Modbus TCP/IP**, where a **Siemens S7-1200 PLC** acts as the **Modbus client** and **ESP32 nodes** act as **Modbus servers**.
 
-![zd](https://github.com/user-attachments/assets/f4a550b4-8877-4559-bd35-0c70119be33d)
-![Obraz1.png]
+<p align="center">
+  <img src="./zd.jpg" alt="zd" width="320" />
+  <img src="./Obraz1.png" alt="Obraz1" width="370" />
+</p>
 ## System concept
 
 A local **LAN network** connects the PLC and multiple ESP32-based I/O nodes. Each ESP32 collects sensor data, performs basic local processing (min/max tracking, event detection), and exposes registers to the PLC via **Modbus TCP/IP**. The PLC then processes the data and presents it on an HMI.
