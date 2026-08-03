@@ -11,6 +11,9 @@ This repository contains my diploma thesis project focused on building a **distr
 
 ## System concept
 A local **LAN network** connects the PLC and multiple ESP32-based I/O nodes. Each ESP32 collects sensor data, performs basic local processing (min/max tracking, event detection), and exposes registers to the PLC via **Modbus TCP/IP**. The PLC then processes the data and presents it on an HMI.
+## Video
+[![Oglądaj na YouTube](zd.jpg)](https://youtu.be/Fh-YvNaHG-w)
+
 
 ## ESP32 node functionalities
 
